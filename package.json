@@ -1,0 +1,29 @@
+{
+  "name": "transmit",
+  "version": "1.0.0",
+  "description": "Transmission graph viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodyphelan/transmit.git"
+  },
+  "author": "Jody Phelan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodyphelan/transmit/issues"
+  },
+  "homepage": "https://github.com/jodyphelan/transmit#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "d3": "^5.4.0",
+    "drag-and-drop-files": "0.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.0",
+    "ws-browserify-fs": "^1.0.1"
+  }
+}
